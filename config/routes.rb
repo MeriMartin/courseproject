@@ -1,4 +1,5 @@
 Courseproject::Application.routes.draw do
+  get '/login', to: "main#{index}"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
